@@ -1,11 +1,13 @@
-import './App.css';
-import Component from './components/Component.js';
+import './assets/scss/App.scss';
+import AirbnbHeader from './components/AirbnbHeader.js';
+import AirbnbHero from './components/AirbnbHero.js';
 
 // App root
 function App() {
   	return (
   	  	<div className="App">  	  		
-  	  		<Component/>
+  	  		<AirbnbHeader/>
+  	  		<AirbnbHero/>
   	  	</div>
   	);
 }
