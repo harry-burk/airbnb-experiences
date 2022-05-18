@@ -23,7 +23,9 @@ header {
 p { line-height: 1.66; }
 
 .card {
+	position: relative;
 	width: rem(300);
+	margin-right: 30px;
 	border: none;
 
 	.card-img {
